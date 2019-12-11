@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/play_button"
+        android:layout_width="79dp"
+        android:layout_height="40dp"
+        android:contentDescription="@string/app_name"
+        app:srcCompat="@drawable/play_button_small" />
+
+    <TextView
+        android:id="@+id/trailer_tv"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="@string/app_name"
+        android:paddingTop="10dp"
+        android:paddingLeft="84dp"/>
+
+</LinearLayout>

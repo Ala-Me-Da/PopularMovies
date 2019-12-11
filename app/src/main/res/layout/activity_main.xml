@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!--RecyclerView to support Grid Layout of Movies -->
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/grid_layout_rv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v7.widget.RecyclerView>
+
+    <!--TextView to display an error message when no internet connection is detected.  -->
+    <TextView
+        android:id="@+id/no_connection_error_tv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textSize="@dimen/error_text_size"
+        />
+
+</RelativeLayout>

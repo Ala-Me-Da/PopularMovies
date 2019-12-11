@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- TODO (9) UI contains an element to toggle the sort order of the movies by: most popular, highest rated, and favorites.
+-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/most_popular"
+        android:orderInCategory="1"
+        android:title="@string/most_popular"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/top_rated"
+        android:orderInCategory="2"
+        android:title="@string/top_rated"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/user_favorites"
+        android:orderInCategory="3"
+        android:title="@string/user_favorites"
+        app:showAsAction="never"
+        />
+</menu>
